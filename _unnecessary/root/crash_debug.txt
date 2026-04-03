@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "d:\BUDDHIMAL\antigravity\paking list summerization\backend\main.py", line 212, in _run_pipeline_background
+    record = run_pipeline(pdf_bytes, filename, supplier_name)
+  File "d:\BUDDHIMAL\antigravity\paking list summerization\backend\main.py", line 128, in run_pipeline
+    gemini_results = call_gemini(document_text, doc_type, supplier_name)
+  File "d:\BUDDHIMAL\antigravity\paking list summerization\backend\extractor\gemini_agent.py", line 177, in call_gemini
+    prompt = EXTRACTION_PROMPT.format(
+        doc_type=doc_type,
+        supplier_name=supplier_name,
+        document_text=document_text,
+    )
+KeyError: '\n  "lot"'

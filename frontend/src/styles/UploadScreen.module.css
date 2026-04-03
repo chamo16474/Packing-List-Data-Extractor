@@ -1,0 +1,210 @@
+.uploadContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--row-hover);
+}
+
+.uploadCard {
+  background: var(--bg-color);
+  border: 1px solid var(--border-strong);
+  width: 100%;
+  max-width: 560px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.header p {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputGroup label {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.inputGroup input {
+  padding: 10px 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.inputGroup input:focus {
+  border-color: var(--primary);
+}
+
+.dropZone {
+  border: 1px dashed var(--border-strong);
+  background: var(--row-hover);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.dropZone:hover:not(.loading) {
+  border-color: var(--primary);
+  background: var(--bg-color);
+}
+
+.dragActive {
+  border-color: var(--primary);
+  background: var(--row-confirmed);
+}
+
+.loading {
+  cursor: wait;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.dropZoneContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.dropIcon {
+  font-size: 32px;
+}
+
+.dropTitle {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.dropSub {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.spinnerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--border-color);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.errorBanner {
+  background: #fef2f2;
+  border: 1px solid var(--status-flag);
+  color: var(--status-flag);
+  padding: 12px;
+  font-size: 13px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 2px;
+}
+
+.terminalWindow {
+  background: #1e1e1e;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-family: 'Consolas', 'Monaco', monospace;
+}
+
+.terminalHeader {
+  background: #2d2d2d;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #999;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.dots {
+  display: flex;
+  gap: 6px;
+}
+
+.dotRed, .dotYellow, .dotGreen {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.dotRed { background: #ff5f56; }
+.dotYellow { background: #ffbd2e; }
+.dotGreen { background: #27c93f; }
+
+.terminalBody {
+  padding: 12px;
+  overflow-y: auto;
+  flex: 1;
+  color: #d4d4d4;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.logLine {
+  margin-bottom: 4px;
+  word-break: break-all;
+}
+
+.prompt {
+  color: #27c93f;
+  margin-right: 6px;
+}
+
+.blinkingCursor {
+  display: inline-block;
+  width: 8px;
+  height: 15px;
+  background: #d4d4d4;
+  animation: blink 1s step-end infinite;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}

@@ -1,0 +1,169 @@
+# mapper/synonym_dict.yaml
+# Known field aliases used across different supplier packing list formats.
+# Format: canonical_field_name → list of alias column headers
+
+pieces:
+  - Roll No
+  - Roll Number
+  - Piece
+  - Piece No
+  - Pcs
+  - No. of Rolls
+  - Rolls
+  - PCS
+  - Pcs.
+  - No of Pcs
+  - QTY
+  - Quantity
+  - Pieces / Rolls
+  - Pieces/Rolls
+  - Pieces / Roll
+  - No. of Pieces
+  - No Of Rolls
+  - Number of Rolls
+  - Number of Pieces
+  - Pieces
+  - pieces / rolls
+
+meters:
+  - Qty (MTR)
+  - Metres
+  - MTR
+  - Length (M)
+  - Quantity (M)
+  - Qty. in Mtrs
+  - Total Metres
+  - Mts
+  - Mtrs
+  - MT
+  - MTR.
+  - Qty in Mtrs
+  - Meters
+  - metres
+  - Meter
+  - Length
+  - Length (Mtr)
+  - Total Meters
+  - Total (MTR)
+  - Qty (Mtr)
+
+net_weight:
+  - N Wt.(KGS)
+  - Net Weight
+  - Nett Weight
+  - NW (KG)
+  - Net Wt
+  - Net Wt (KG)
+  - N.Wt.(Kgs)
+  - Net Wt.(KGS)
+  - Net Wt. (KGS)
+  - N. Wt. (KGS)
+  - Net Weight (KG)
+  - Net Weight (KGS)
+  - Nett Wt
+  - Nett Wt.
+  - Net W.
+  - NW
+
+color:
+  - Shade
+  - Colour
+  - Color
+  - Shade Name
+  - Shade Code
+  - Colour Name
+  - Colour Code
+  - Color No
+  - Colour No
+  - Shade No.
+  - Shade No
+  - Color / Shade
+  - Color/Shade
+  - Colour / Shade
+  - Colour/Shade
+  - Shade / Color
+  - Shade/Color
+  - color / shade
+
+quality:
+  - Construction
+  - Article
+  - Your product
+  - Fabric Code
+  - Quality
+  - Description
+  - Item Description
+  - Fabric Description
+  - Product Description
+  - Quality / Article
+  - Quality/Article
+  - Article / Quality
+  - Article/Quality
+  - Fabric Quality
+  - Material
+  - Fabric
+  - Style
+  - quality / article
+
+lot:
+  - Lot
+  - Lot No
+  - Batch
+  - Batch No
+  - Lot Number
+  - Batch Number
+  - BATCH/LOT
+  - LOT/BATCH
+  - Lot / Batch
+  - Lot/Batch
+  - Batch / Lot
+  - Batch/Lot
+  - Lot No.
+  - Batch No.
+  - lot / batch
+
+invoice_number:
+  - D/A No
+  - Invoice No
+  - Packing List No
+  - Number
+  - Commercial Invoice No
+  - Invoice Number
+  - Invoice Ref
+  - Inv No
+  - Inv.
+  - Invoice
+  - PL No
+  - Packing List Number
+  - Document No
+
+order_number:
+  - Order
+  - Delivery Nº
+  - Delivery No
+  - Order No
+  - Order Number
+  - Delivery Note No
+  - DN No
+  - Delivery Note
+  - DO No
+  - Dispatch Order
+  - Shipment No
+  - Delivery Order No
+
+po_number:
+  - Contract No
+  - Your Order
+  - PO
+  - PO No
+  - PO Number
+  - Customer PO
+  - Purchase Order
+  - Order Reference
+  - Customer Order No
+  - Customer Order
+  - Buyer PO
+  - Buyer's PO
+  - PO Ref
+  - Purchase Order No
+

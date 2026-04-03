@@ -1,0 +1,14 @@
+﻿src/components/ConfidenceBadge.tsx(1,10): error TS1484: 'ConfidenceStatus' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ConfidenceBadge.tsx(8,7): error TS6133: 'status' is declared but its value is never read.
+src/components/DocumentPreview.tsx(3,10): error TS1484: 'UploadResponse' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/FieldRow.tsx(3,10): error TS1484: 'ExtractedField' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/FieldRow.tsx(3,26): error TS1484: 'FieldName' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/FieldRow.tsx(3,37): error TS1484: 'ConfidenceStatus' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/FieldRow.tsx(3,37): error TS6133: 'ConfidenceStatus' is declared but its value is never read.
+src/components/MappingReview.tsx(3,35): error TS1484: 'UploadResponse' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/MappingReview.tsx(3,51): error TS1484: 'FieldName' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/MappingReview.tsx(3,62): error TS1484: 'ExtractedField' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/MappingReview.tsx(3,62): error TS6133: 'ExtractedField' is declared but its value is never read.
+src/components/OutputScreen.tsx(3,36): error TS1484: 'UploadResponse' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ReassignDropdown.tsx(2,25): error TS1484: 'Candidate' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ReassignDropdown.tsx(2,36): error TS1484: 'FieldName' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.

@@ -1,0 +1,9 @@
+ERR  google/gemini-2.0-flash: HTTP 400 code=400 msg=google/gemini-2.0-flash is not a valid model ID
+OK   google/gemini-2.0-flash-001: ```json
+{"rolls":[{"roll_no":"TEST001","length_mts":100.0,"weight_nett_kgs":50.0,"lot_no":"LOT1","po
+ERR  google/gemini-2.5-flash-preview: HTTP 400 code=400 msg=google/gemini-2.5-flash-preview is not a valid model ID
+ERR  google/gemini-2.5-pro-preview: HTTP 402 code=402 msg=This request requires more credits, or fewer max_tokens. You requested up to 819
+ERR  google/gemini-flash-1.5: HTTP 404 code=404 msg=No endpoints found for google/gemini-flash-1.5.
+ERR  google/gemini-pro-1.5: HTTP 404 code=404 msg=No endpoints found for google/gemini-pro-1.5.
+OK   meta-llama/llama-3.3-70b-instruct: {"rolls":[{"roll_no":"TEST001","length_mts":100.0,"weight_nett_kgs":50.0,"lot_no":"LOT1","po_number"
+OK   anthropic/claude-3-haiku: {"rolls":[{"roll_no":"TEST001","length_mts":100.0,"weight_nett_kgs":50.0,"lot_no":"LOT1","po_number"

@@ -1,0 +1,132 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  height: 100%;
+  background: #f8fafc;
+  border-left: 1px solid #dde3ea;
+  overflow: hidden;
+}
+
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px 10px;
+  background: #1b3a6b;
+  flex-shrink: 0;
+}
+
+.panelTitle {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.panelCount {
+  font-size: 11px;
+  color: #90caf9;
+  background: rgba(255,255,255,0.12);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.hint {
+  font-size: 11px;
+  color: #78909c;
+  padding: 8px 14px 4px;
+  margin: 0;
+  line-height: 1.4;
+  border-bottom: 1px solid #dde3ea;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+.section {
+  padding: 10px 12px 4px;
+}
+
+.sectionLabel {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #455a64;
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #eceff1;
+}
+
+/* Scrollable chip area */
+.panel > .section {
+  overflow-y: auto;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  padding: 6px 10px 6px 10px;
+  margin-bottom: 5px;
+  cursor: grab;
+  transition: box-shadow 0.15s, border-color 0.15s, transform 0.1s;
+  user-select: none;
+}
+
+.chip:active {
+  cursor: grabbing;
+  transform: scale(0.97);
+}
+
+.chip:hover {
+  border-color: #1b3a6b;
+  box-shadow: 0 2px 8px rgba(27,58,107,0.12);
+}
+
+.chipConfirmed {
+  border-left: 3px solid #2e7d32;
+  background: #f1f8f1;
+}
+
+.chipUnidentified {
+  border-left: 3px solid #f57f17;
+  background: #fffde7;
+}
+
+.chipLabel {
+  font-size: 10px;
+  font-weight: 600;
+  color: #546e7a;
+  flex-shrink: 0;
+  min-width: 80px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.chipValue {
+  font-size: 11px;
+  color: #263238;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dragHandle {
+  font-size: 14px;
+  color: #b0bec5;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.empty {
+  text-align: center;
+  color: #90a4ae;
+  font-size: 12px;
+  padding: 40px 16px;
+}

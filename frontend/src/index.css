@@ -1,0 +1,50 @@
+:root {
+  /* Industrial Utilitarian Aesthetic Palette */
+  --bg-color: #ffffff;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  
+  --status-auto: #16a34a;
+  --status-review: #d97706;
+  --status-flag: #dc2626;
+  --status-na: #9ca3af;
+  
+  --border-color: #e5e7eb;
+  --border-strong: #d1d5db;
+  --row-hover: #f9fafb;
+  --row-confirmed: #f0fdf4;
+  
+  /* Typography */
+  --font-sys: system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sys);
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, select {
+  font-family: inherit;
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+}

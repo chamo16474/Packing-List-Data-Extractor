@@ -1,0 +1,34 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+python-multipart==0.0.9
+python-dotenv==1.0.1
+
+# PDF extraction
+pdfplumber==0.11.0
+
+# OCR fallback — Strategy 1: pymupdf (no Poppler needed)
+pymupdf>=1.24.5
+
+# OCR fallback — Strategy 2: classic Tesseract pipeline (requires Tesseract + Poppler on PATH)
+pytesseract==0.3.13
+pdf2image==1.17.0
+
+# OCR image pre-processing (Flaw A fix — greyscale/deskew/denoise/binarise)
+opencv-python-headless>=4.10.0
+Pillow>=10.0.0
+
+# AI extraction via OpenRouter (Flaw D fix — no Gemini SDK needed, uses requests)
+requests>=2.31.0
+
+# Vector memory / template store
+chromadb==0.4.24
+
+# Excel output
+openpyxl==3.1.2
+
+# YAML parsing (synonym dict)
+pyyaml==6.0.1
+
+# Utilities
+httpx==0.27.0

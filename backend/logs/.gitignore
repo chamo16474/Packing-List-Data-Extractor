@@ -1,0 +1,2 @@
+# keep the logs directory in version control but ignore log content
+*.log
